@@ -1,0 +1,23 @@
+Find out how much memory a computer can take!!
+
+1. Open the CDM
+2. type the following:
+wmic memphysical get MaxCapacity, MemoryDevices
+
+
+
+C:\Users\user>wmic memphysical get MaxCapacity, MemoryDevices
+3. A value will be prompted
+
+
+MaxCapacity  MemoryDevices
+268435456    4 
+
+
+4. divide that value by  1048576.
+
+268435456/1048576 = 256    
+
+
+
+256/4 = 64  per slot
